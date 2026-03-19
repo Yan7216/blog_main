@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import post, category,comment
 
-admin.site.registrer(post)
-admin.site.registrer(category)
-admin.site.registrer(comment)
+admin.site.register(post)
+admin.site.register(category)
+admin.site.register(comment)
 # Register your models here.
