@@ -16,5 +16,5 @@ def detail(request,id):
     post=get_object_or_404(post,id=id,status=post.ACTIVE)
     context = {'post':post,
                }
-    return render(request,'blog¨/detail',context)
+    return render(request,'blog/detail',context)
 # Create your views here.
